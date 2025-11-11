@@ -1,0 +1,309 @@
+.container {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-style: italic;
+    background-image: url("https://www.shutterstock.com/image-photo/close-happy-couple-receiving-keys-600nw-2512454355.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header {
+    text-align: center;
+    color: #5a2310;
+    font-size: 40px;
+    position: relative;
+    
+}
+.tagline label {
+    margin-top: 20px;
+    padding: 15px;
+    width: 60%;
+    font-size: 32px;
+    color: #ba7272;
+    position: absolute;
+    left: 1%;
+}
+.tagline input {
+    margin-top: 1px;
+    padding: 20px;
+    width: 35%;
+    font-size: 16px;
+    border: 0px none;
+    border-radius: 5px;
+    position: absolute;
+    left: 1%;
+    top: 325px;
+}   
+
+.scroll {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.options {
+    color: #a9187b;
+    background-color:none;
+    position: relative;
+    top: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    
+}
+.options a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-style: italic;
+}
+.options a:hover {
+    color: #2452df;
+}
+
+.search-bar {
+  align-items: center;
+  background-color: rgb(219, 187, 167);
+  width: 50%;
+  height: 60px;
+  border-radius: 5px solid #ce8686;
+  margin-top: 10px;
+}
+
+.search-bar select {
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 7px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: goldenrod;
+  margin-left:40px;
+  color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: darkgoldenrod;
+}
+.results {
+    color: #5a2310;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.house-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.house-card-1 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;  
+    height: 300px; 
+}
+.img-container-1 {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("https://cdn.homedsgn.com/wp-content/uploads/2013/01/Poona-House-01-800x371.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.house-card-2 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px ;
+    width: 400px; 
+    height: 300px;   
+}
+.img-container-2 {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("https://assets.savills.com/properties/IN3101053432/DSC_0247_l_lis.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.house-card-3 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px ;
+    width: 400px;  
+    height: 300px;  
+}
+.img-container-3 {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("https://assets.architecturaldigest.in/photos/62f4d46616c88215b7e80d3b/16:9/w_2560%2Cc_limit/Step%2520into%25205%2520of%2520the%2520most%2520beautiful%2520villas%2520in%2520Bengaluru.jpg");         
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.house-info{
+    background-color: #e7d5d5e1;
+    border-radius: 5px ;
+    font-family: Arial, sans-serif;
+
+}
+.house-info:hover{
+    background-color: #9a9191;
+}
+.house-info h3, .house-info p {
+    color: #262424;
+    margin: 7px 0;
+    
+}
+
+.card-section {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.card:hover {
+  background-color: #a49c9c;
+    
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin: 10px 0 6px;
+}
+
+.card p {
+  color: #555;
+  font-size: 15px;
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+.card button {
+  background: #fff;
+  color: #0058ff;
+  border: 2px solid #0058ff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #0058ff;
+  color: #fff;
+}
+
+.footer {
+  background-color: #7a5e5e;
+  padding: 50px 10%;
+  border: 1px solid #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.footer-left {
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  color: #ccc;
+  font-size: 14px;
+  max-width: 320px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.fb { background-color: #3b5998; }
+.insta { background-color: #e1306c; }
+.linkedin { background-color: #0077b5; }
+.yt { background-color: #ff0000; }
+
+.icon::after {
+  content: "■";
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  top: 9px;
+  left: 12px;
+}
+
+.footer-center, .footer-right {
+  flex: 1 1 200px;
+}
+
+.footer h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
