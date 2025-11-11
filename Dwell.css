@@ -12,7 +12,7 @@
 }
 .header {
     text-align: center;
-    color: #5a2310;
+    color: #05193f;
     font-size: 40px;
     position: relative;
     
@@ -22,7 +22,7 @@
     padding: 15px;
     width: 60%;
     font-size: 32px;
-    color: #d8d16e;
+    color: #033344;
     position: absolute;
     left: 1%;
 }
@@ -56,7 +56,7 @@
 .options a {
     margin: 0 15px;
     text-decoration: none;
-    color: #ead37d;
+    color: #63aeda;
     font-style: italic;
     font-size: 24px;
 }
@@ -66,10 +66,10 @@
 
 .search-bar {
   align-items: center;
-  background-color: rgb(174, 142, 141);
+  background-color: rgb(178, 218, 237);
   width: 50%;
   height: 60px;
-  border-radius: 5px solid #ce8686;
+  border-radius: 5px solid #eb7676;
   margin-top: 10px;
   border-radius: 8px;
 }
@@ -98,7 +98,7 @@
   background-color: darkgoldenrod;
 }
 .results {
-    color: #5a2310;
+    color: #044c7c;
     font-size: 28px;
     margin-top: 20px;
 }
@@ -160,13 +160,13 @@
     background-repeat: no-repeat;
 }
 .house-info{
-    background-color: #c09a9a;
+    background-color: #d1edf1;
     border-radius: 5px ;
     font-family: Arial, sans-serif;
 
 }
 .house-info:hover{
-    background-color: #9a9191;
+    background-color: #8ac2d4;
 }
 .house-info h3, .house-info p {
     color: #262424;
@@ -184,7 +184,7 @@
 }
 
 .card {
-  background: #fff;
+  background: #f0eeee;
   border-radius: 15px;
   width: 300px;
   text-align: center;
@@ -192,7 +192,7 @@
 }
 
 .card:hover {
-  background-color: #a49c9c;
+  background-color: #cae2ed;
     
 }
 
@@ -242,9 +242,6 @@
   gap: 30px;
 }
 
-.footer-left {
-}
-
 .logo {
   font-size: 28px;
   font-weight: 700;
@@ -272,24 +269,25 @@
   position: relative;
 }
 
-.fb { background-color: #3b5998; }
-.insta { background-color: #e1306c; }
-.linkedin { background-color: #0077b5; }
-.yt { background-color: #ff0000; }
-
+.fb { 
+  background-color: #3b5998; 
+}
+.insta {
+   background-color: #e1306c;
+}
+.linkedin { 
+  background-color: #0077b5; 
+}
+.yt {
+   background-color: #ff0000; 
+}
 .icon::after {
-  content: "■";
   color: #fff;
   font-size: 18px;
   position: absolute;
   top: 9px;
   left: 12px;
 }
-
-.footer-center, .footer-right {
-  flex: 1 1 200px;
-}
-
 .footer h3 {
   font-size: 16px;
   margin-bottom: 10px;

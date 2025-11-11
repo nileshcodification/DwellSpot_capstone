@@ -1,20 +1,73 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   font-family: Arial, sans-serif;;
   color: #333;
-  height: 100vh;
-}
+  height: 200px;}
 .container {
   position: relative;
   height: 100%;
 }
+.img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr ;
+  background-color: #7aaed4;
+  gap: 10px;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.img {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: auto;
+  width:auto;
+}
+.img1 { 
+  grid-column: 3/5;
+  grid-row: 1/3;
+  background-image: url("https://www.bhg.com/thmb/TD9qUnFen4PBLDuB2hn9yhGXPv8=/1866x0/filters:no_upscale():strip_icc()/white-house-a-frame-section-c0a4a3b3-e722202f114e4aeea4370af6dbb4312b.jpg"); 
+ }
+.img2 { 
+  grid-column: 1/3;
+  grid-row: 1/2;
+  background-image: url("https://assets.architecturaldigest.in/photos/66ffa18e11e19065f420e338/16:9/w_1616,h_909,c_limit/Untitled%20design%20-%202024-10-04T132207.133.png");
+ }
+.img3 {
+   grid-column: 1/2;
+   grid-row: 2/3;
+   background-image: url("https://png.pngtree.com/background/20250103/original/pngtree-modern-small-apartment-design-small-appartment-house-with-bedroom-and-full-picture-image_13041897.jpg");
+   }
+.img4 {
+   grid-column: 2/4;
+   grid-row: 4/5;
+   background-image: url("https://cdn.sanity.io/images/v48q37k7/production/d09208183125ab47493d5de2f8710b6faa27d7cc-3000x2000.jpg"); 
+  }
+.img5 { 
+  grid-column: 3/4;
+  grid-row: 3/4;
+  background-image: url("https://i.ytimg.com/vi/0FSCa-x79Yc/maxresdefault.jpg"); 
+}
+.img6{
+  grid-column: 4/5;
+  grid-row: 3/5;
+  background-image: url("https://worldarchitecture.org/cdnimgfiles/extuploadc/03_mvrdv_laserre_sidefacadeengram.jpg");
+
+}
+.img7{
+  grid-column: 1/2;
+  grid-row: 3/5;
+  background-image: url("https://www.buildofy.com/blog/content/images/2025/04/Canopy-House-in-Pune.png");
+}
+.img8{
+  grid-column: 2/3;
+  grid-row: 2/4;
+  background-image: url("https://t3.ftcdn.net/jpg/03/22/06/68/360_F_322066808_CANrp7u5Cdiz7700TJReqKD299d2AZtD.jpg");
+}
 .login-box {
-  position: absolute;
-  top: 30%;
+  position: fixed;
+  top: 180px;
   left: 40%;
   background-color: white;
   border: 1px solid #ccc;
@@ -22,12 +75,13 @@ body {
   padding: 25px;
   width: 300px;
   margin: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   z-index: 1;
+}
+.login-box:hover{
+  background-color: #d1cfcf;
 }
 h2 {
   text-align: center;
-  text-transform: uppercase;
   margin-bottom: 15px;
 }
 
@@ -49,10 +103,7 @@ input {
   padding: 8px;
   margin-top: 5px;
 }
-input:focus {
-  border-color: #0077cc;
-  outline: none;
-}
+
 #login-btn {
   background-color: #0077cc;
   color: white;
@@ -77,7 +128,4 @@ input:focus {
 .signup-text a:hover {
   text-decoration: underline;
   color: #005fa3;
-}
-h2::after {
-  content: " 🏠";
 }
