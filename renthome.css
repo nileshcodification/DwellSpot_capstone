@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #e7f3ff;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #cbe3ff;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #004d80;
+}
+
+.header p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #035a91;
+}
+
+/* Search Bar */
+.search-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    background: #d8ecff;
+}
+
+.search-box input, .search-box select {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #0099ff;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.search-box input:focus, .search-box select:focus {
+    transform: scale(1.05);
+    border-color: #0066cc;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    background: #0099ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-box button:hover {
+    background: #007acc;
+    transform: scale(1.05);
+}
+
+/* Property Section */
+.property-section {
+    padding: 30px;
+}
+
+.property-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #004d80;
+}
+
+/* Grid Layout */
+.property-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 0 40px;
+}
+
+/* Property Card */
+.property-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.property-card:hover {
+    transform: translateY(-8px);
+}
+
+.property-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.property-card h3 {
+    padding: 15px;
+    font-size: 20px;
+    color: #004d80;
+}
+
+.property-card p {
+    padding: 0 15px 10px;
+    color: #333;
+}
+
+.price {
+    font-weight: bold;
+    color: #0077b6;
+}

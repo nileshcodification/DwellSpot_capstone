@@ -115,3 +115,41 @@
     font-size: 13px;
     color: #0073ff;
 }
+.agent{
+    background-color: #ccdbed;
+    height: 110px ;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    display:flex;
+    
+}
+.agent button{
+    background-color: #8ab8e2;
+    border: 2px solid rgb(4, 43, 63);
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    height: 50px;
+    width: 190px;
+    padding: auto;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: Arial,sans-serif;
+    font-weight: 500;
+
+}
+.support{
+    height: 50px;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 24px;
+    color: #003f71;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+.agent button:hover{
+    transform: scale(1.03);
+}
