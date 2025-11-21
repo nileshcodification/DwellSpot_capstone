@@ -2,7 +2,7 @@ body{
   background-color: #d7e0ef;
 }
 .container {
-    width: 100%;
+    width: 98%;
     height: 400px;
     margin: 0 auto;
     padding: 20px;
@@ -45,12 +45,6 @@ input:hover{
   transform: scale(1.01);
 }
 
-.scroll {
-    height: 100%;
-    width: 100%;
-    overflow-y: scroll;
-    overflow-x: scroll;
-}
 .options{
   display: flex;
   justify-content: space-around;
@@ -185,6 +179,7 @@ input:hover{
   padding: 50px 10%;
   width: 100%;
   border: 1px solid #333;
+  
 }
 
 .footer-container {
@@ -244,7 +239,7 @@ input:hover{
   margin: 5px 0;
 }
 
-.copyright {
+.rights {
   text-align: center;
   font-size: 13px;
   color: #999;

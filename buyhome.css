@@ -28,6 +28,14 @@
     font-size: 15px;
     transition: 0.3s ease;
 }
+.your-type select {
+    width: 220px;
+    padding: 12px 14px;
+    border: 2px solid #b9dcff;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
 .your-type input:hover, .your-type select:hover {
     border-color: #4aa3ff;
     transform: scale(1.04);
