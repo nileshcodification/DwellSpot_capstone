@@ -132,3 +132,7 @@ input {
   text-decoration: underline;
   color: #005fa3;
 }
+#error{
+  color: #f17474;
+  font-weight: 800;
+}

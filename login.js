@@ -1,5 +1,5 @@
 let email=document.getElementById("email");
-let error=document.getElementById("email.Error");
+let error=document.getElementById("error");
 
 email.addEventListener('input',function(){
     if (email.value.includes("@")){
