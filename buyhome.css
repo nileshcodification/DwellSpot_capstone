@@ -161,3 +161,40 @@
 .agent button:hover{
     transform: scale(1.03);
 }
+.bhk-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.qty-btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #b9dcff;
+    outline: none;
+    background: #f0f0f0;
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.qty-btn:hover {
+    background: #e4e4e4;
+    transform: scale(1.05);
+}
+
+#qty {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    padding: 8px 16px;
+    background: #ffffff;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    border: 2px solid #b9dcff;
+}

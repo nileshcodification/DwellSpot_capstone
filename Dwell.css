@@ -247,3 +247,9 @@ input:hover{
   border-top: 1px solid #333;
   padding-top: 20px;
 }
+.dark{
+  background-color: black;
+}
+.toggleTheme{
+  border-radius: 50%;
+}

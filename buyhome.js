@@ -10,7 +10,5 @@ m.addEventListener('click',function(){
     if (qnt>1){
         qnt--
         q.textContent=qnt + " BHK";
-    
-
     }
 })

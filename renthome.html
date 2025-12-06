@@ -16,9 +16,8 @@
         <input type="text" placeholder="Search by city, area, or landmark...">
         <select>
             <option value="">Apartment Type</option>
-            <option>1 BHK</option>
-            <option>2 BHK</option>
-            <option>3 BHK</option>
+            <option>Studios</option>
+            <option>Flats</option>
             <option>Villa</option>
         </select>
         <select>
@@ -28,6 +27,11 @@
             <option>₹20,000 - ₹40,000</option>
             <option>₹40,000+</option>
         </select>
+        <div class="bhk-container">
+            <button id="minus" class="qty-btn">−</button>
+            <div id="qty">1 BHK</div>
+            <button id="plus" class="qty-btn">+</button>
+        </div>
         <button>Search</button>
     </div>
 
@@ -79,6 +83,7 @@
 
         </div>
     </div>
+    <script src="./renthome.js"></script>
 
     
 </body>
